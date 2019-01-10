@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+  <project name="tardorg/device_oneplus_enchilada" path="device/oneplus/enchilada" remote="github" revision="pie" />
+  <project name="tardorg/device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="github" revision="pie" />
+  <project name="AOSiP-Devices/kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="pie" />
+  <project name="AOSiP-Devices/vendor_oneplus" path="vendor/oneplus" remote="github" revision="pie" />
+  <project name="anirudhgupta109/gcc-prebuilts" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="gitlab" revision="8.2.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+</manifest>
